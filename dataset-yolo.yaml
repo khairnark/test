@@ -1,0 +1,9 @@
+train: ../dataset-yolo/images/train/ 
+val:  ../dataset-yolo/images/val/
+test: ../dataset-yolo/images/test/
+
+# number of classes
+nc: 25
+
+# class names
+names: ["0010154_AddressLineText","0010156_CityName","0010162_StateCode","0010160_PostalCode","0011035_FullName","0011034_FullName","0010134_ProximityToSubjectDescription","0012453_TotalNumberOfRoomsAboveGradeCount","0012467_SalesContractAmount","0010149_SalesContractAmount","0011077_AddressLineText","0011078_CityName","0011081_StateCode","0011080_PostalCode","0010145_SalesContractAmount","0010068_OwnershipTransferDate","0012388_OwnershipTransferDate","0011186_AppraisalReportEffectiveDate","0010114_ProjectName","0010164_DevelopmentStageTotalPhasesCount","0010986_FullName","0010987_AppraiserCompanyName","0011064_AppraiserReportSignedDate","0012401_FullName","0011038_DocumentFormIssuingEntityNumberIdentifier"]
